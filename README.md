@@ -1,4 +1,3 @@
-# Hubspot-django-integration
 # Ticketing System - Hubspot Integration with Django App
 
 This project aims to integrate HubSpot, a popular CRM platform, with a Django web application to streamline ticket management and provide a seamless experience for users. The integration will allow users to create, update, and manage tickets in HubSpot directly from the Django app. To achieve this, we'll be using the HubSpot API and creating a private app to authenticate our API requests.
