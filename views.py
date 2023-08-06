@@ -5,6 +5,7 @@ from rest_framework.parsers import MultiPartParser, JSONParser
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.viewsets import ViewSet
 from Hubspot_Client import HubspotClient
+from .serializers import TicketSerializer, TicketHubspotUpdateSerializer
 
 
 def create_ticket_on_hubspot(ticket_id):
